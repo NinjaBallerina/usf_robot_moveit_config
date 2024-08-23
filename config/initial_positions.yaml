@@ -1,0 +1,8 @@
+# Default initial positions for usf_robot's ros2_control fake system
+
+initial_positions:
+  claw0_to_wrist: 0
+  link0_to_base_link: 0
+  link1_to_link0: 0
+  link2_to_link1: 0
+  wrist_to_link2: 0

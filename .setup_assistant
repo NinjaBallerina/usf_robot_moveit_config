@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: usf_robot_description
+    relative_path: urdf/usf_robot.urdf
+  srdf:
+    relative_path: config/usf_robot.srdf
+  package_settings:
+    author_name: Farida
+    author_email: fwinters@usf.edu
+    generated_timestamp: 1724383605
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
