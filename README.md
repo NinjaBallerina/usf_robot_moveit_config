@@ -7,11 +7,11 @@ This repository contains the ROS 2 packages used to visualize the `USF Robot` in
 
 # Before Launching RViz2/MoveIt2:
 1. **Build the Package**: 
-    colcon build
+    `colcon build`
 2. **Source the ROS 2 Humble Environment**: 
-    source /opt/ros/humble/setup.bash
+    `source /opt/ros/humble/setup.bash`
 3. **Source the Workspace**: 
-    source install/setup.bash
+    `source install/setup.bash`
 
 # Launch RViz2/MoveIt2 with the USF Robot: 
     ros2 launch usf_robot_moveit_config demo.launch.py
