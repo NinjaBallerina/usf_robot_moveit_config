@@ -1,3 +1,5 @@
+![USF](https://github.com/user-attachments/assets/329f0ddf-591a-4ca7-aa64-c8a0e7676950)
+
 This repository contains the ROS 2 packages used to visualize the `USF Robot` in **RViz2** and **MoveIt2**.
 
 # Requirements:
@@ -17,7 +19,7 @@ This repository contains the ROS 2 packages used to visualize the `USF Robot` in
     ros2 launch usf_robot_moveit_config demo.launch.py
 
 - When you launch the `demo.launch.py`, click on "Add" on **RViz2** under **Displays**, then scroll down and select `RobotModel`. Click "OK" to add it.
-- Under **Displays**, click on the arrow to the left of `RobotModel` then scroll down to `Description Topic`. Click on the empty space to the right of it, then click the down arrow and select `/robot_descriptio>
+- Under **Displays**, click on the arrow to the left of `RobotModel` then scroll down to `Description Topic`. Click on the empty space to the right of it, then click the down arrow and select `/robot_description`
 
 # Planning Movements:
 1. Under **MotionPlanning**, select the __Planning__ tab. There is a planning group called `usf_arm` which consists of the robot arm plus the claws. 
