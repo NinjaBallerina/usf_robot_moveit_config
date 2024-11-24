@@ -3,7 +3,7 @@
 This repository contains the ROS 2 packages used to visualize the `USF Robot` in **RViz2** and **MoveIt2**.
 
 # Requirements:
-* **Ubuntu 22.04 LTS**
+* **Ubuntu 22.04 LTS** (**Armbian**)
 * ROS 2 **Humble Hawksbill**
 * **RViz2** and **MoveIt2** (`ws_moveit2`)
 
@@ -23,7 +23,7 @@ This repository contains the ROS 2 packages used to visualize the `USF Robot` in
 
 # Planning Movements:
 1. Under **MotionPlanning**, select the __Planning__ tab. There is a planning group called `usf_arm` which consists of the robot arm plus the claws. 
-2. Keep the current state as <current>, and select your goal state.
+2. Keep the current state as `current`, and select your goal state.
 3. Click on `Plan & Execute`.
 
 
